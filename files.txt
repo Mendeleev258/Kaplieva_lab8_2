@@ -34,7 +34,7 @@ math/algebra.txt
 2024
 345678
 ======================
-tea/oolong.png
+tea/oolong.~png
 1
 5
 2024
