@@ -16,7 +16,7 @@ private:
 public:
 	File() {}
 	File(std::ifstream& file);
-	void print();
+	void print(std::ostream& stream = std::cout);
 	char* get_spec()
 	{
 		return spec;

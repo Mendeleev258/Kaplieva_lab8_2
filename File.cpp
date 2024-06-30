@@ -19,14 +19,14 @@ File::File(std::ifstream& file)
 	}
 }
 
-void File::print()
+void File::print(std::ostream& stream)
 {
-	std::cout << catalogue_name << '/' << file_name << '.' << spec << '\n';
+	stream << catalogue_name << '/' << file_name << '.' << spec << '\n';
 	for (int i{}; i < 3; ++i)
 	{
-		std::cout << date[i];
+		stream << date[i];
 		if (i < 2)
-			std::cout << '/';
+			stream << '/';
 	}
-	std::cout << '\n' << size << " bytes\n\n";
+	stream << '\n' << size << " bytes\n\n";
 }

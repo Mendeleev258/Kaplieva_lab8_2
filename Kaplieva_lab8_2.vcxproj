@@ -133,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="files.txt" />
+    <Text Include="output.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DLIST.h" />
